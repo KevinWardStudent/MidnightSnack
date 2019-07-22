@@ -7,6 +7,22 @@ TagManager:
   - Snack
   - Win
   - Enemy
+  - Door1
+  - Lamp1
+  - Door2
+  - Door3
+  - Door3_2
+  - Door1Locked
+  - waypoint1
+  - waypoint2
+  - waypoint3
+  - Key
+  - LOL
+  - Lightswitch
+  - nerf
+  - nerfgun
+  - pickup
+  - otherpart
   layers:
   - Default
   - TransparentFX
