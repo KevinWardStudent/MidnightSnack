@@ -9,6 +9,7 @@ public class FirstPersonPlayer : MonoBehaviour
     float jumpForce = 650;
     public static bool onGround;
     public static bool win;
+    public static bool exposed;
     private bool nerfgunpickedup;
     private bool toggle;
 
@@ -74,6 +75,26 @@ public class FirstPersonPlayer : MonoBehaviour
             other.gameObject.SetActive(false);
             nerfg.SetActive(true);
             nerfgunpickedup = true;
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.CompareTag("exposed"))
+        {
+            exposed = true;
+        }
+        if (other.gameObject.CompareTag("hidden"))
+        {
+            exposed = false;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("exposed"))
+        {
+            exposed = false;
         }
     }
 }

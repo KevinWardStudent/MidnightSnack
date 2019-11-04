@@ -23,6 +23,13 @@ TagManager:
   - nerfgun
   - pickup
   - otherpart
+  - Closet
+  - Door4
+  - seen
+  - hidden
+  - exposed
+  - ammo
+  - dash
   layers:
   - Default
   - TransparentFX

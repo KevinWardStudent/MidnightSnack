@@ -12,6 +12,7 @@ public class K_Door3Script2 : MonoBehaviour {
     // Declare variables
     private Animator anim; // Reference to Animator component
     public bool open = false; // Bool used in Unity Editor to determine if door is open or not. 
+    public int index = -1; // Value used in Unity Editor to determine which Key correspondes to this door--0 = unlocked
 
     // Use this for initialization
     void Start()

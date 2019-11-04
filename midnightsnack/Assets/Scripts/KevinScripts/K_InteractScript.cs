@@ -63,22 +63,45 @@ public class K_InteractScript : MonoBehaviour {
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
 
                 }
-                if (hit.collider.CompareTag("Door2") && animPlay)
+                if (hit.collider.CompareTag("Door2") && !animPlay)
                 {
+                    K_Door2Script door2Script = hit.collider.transform.GetComponent<K_Door2Script>(); // Store the hit variable in script ref object for readability
+                    K_DoorKnobAnimPlayer door2ScriptAnim = hit.collider.transform.GetComponentInChildren<K_DoorKnobAnimPlayer>(); //Store the hit variable in script ref object for readability
+                    K_DoorKnobAnimPlayer2 door2ScriptAnim2 = hit.collider.transform.GetComponentInChildren<K_DoorKnobAnimPlayer2>(); // Store the hit variable in script ref object for readility
+
+                    if (K_PlayerInventory.keys[door2Script.index] == true)
+                    {
+                        door2Script.ChangeDoorState(); // Call ChangeDoorState by accessing, the parent of the door and its script
+                        door2ScriptAnim.PlayAnimation(); // Play the DoorKnob Turning Animation from Hit
+                        door2ScriptAnim2.PlayAnimation(); // Play the DoorKnob Turning Animation from Hit
+                        animPlay = !animPlay; // Animation Play invert the bool, reser upon call of this statement
+                    }
+                    /*
                     hit.collider.transform.GetComponent<K_Door2Script>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script 
                     hit.collider.transform.GetComponentInChildren<K_DoorKnobAnimPlayer>().PlayAnimation(); // Play Doorknob Turning Animation from Hit
                     hit.collider.transform.GetComponentInChildren<K_DoorKnobAnimPlayer2>().PlayAnimation(); // Play Doorknob Turning Animation from Hit
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    */
                 }
-                else if (hit.collider.CompareTag("Door2") && !animPlay)
+                else if (hit.collider.CompareTag("Door2") && animPlay)
                 {
                     hit.collider.transform.GetComponent<K_Door2Script>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
                 }
                 if (hit.collider.CompareTag("Door3") && animPlay)
                 {
+                    K_Door3Script door3Script = hit.collider.transform.GetComponent<K_Door3Script>(); // Store the hit variable in script ref object for readability
+
+                    if (K_PlayerInventory.keys[door3Script.index] == true)
+                    {
+                        door3Script.ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
+                        animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    }
+                    
+                    /*
                     hit.collider.transform.GetComponent<K_Door3Script>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    */
                 }
                 else if (hit.collider.CompareTag("Door3") && !animPlay)
                 {
@@ -87,12 +110,36 @@ public class K_InteractScript : MonoBehaviour {
                 }
                 if (hit.collider.CompareTag("Door3_2") && animPlay)
                 {
+                    K_Door3Script2 door3Script2 = hit.collider.transform.GetComponent<K_Door3Script2>(); // Store the hit variable in script ref object for readability
+
+                    if (K_PlayerInventory.keys[door3Script2.index] == true)
+                    {
+                        door3Script2.ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
+                        animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    }
+                    /*
                     hit.collider.transform.GetComponent<K_Door3Script2>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    */
                 }
                 else if (hit.collider.CompareTag("Door3_2") && !animPlay)
                 {
                     hit.collider.transform.GetComponent<K_Door3Script2>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
+                    animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                }
+                if (hit.collider.CompareTag("Door4") && animPlay)
+                {
+                    K_Door4Script door4Script = hit.collider.transform.GetComponent<K_Door4Script>(); // Store the hit variable in script ref object for readability
+
+                    if (K_PlayerInventory.keys[door4Script.index] == true)
+                    {
+                        door4Script.ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
+                        animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
+                    }
+                }
+                else if (hit.collider.CompareTag("Door4") && !animPlay)
+                {
+                    hit.collider.transform.GetComponent<K_Door4Script>().ChangeDoorState(); // Call ChangeDoorState by acessing, the parent of the doors and its script
                     animPlay = !animPlay; // Animation Play invert the bool, reset upon call of this statement
                 }
                 if (hit.collider.CompareTag("Key"))
@@ -108,6 +155,16 @@ public class K_InteractScript : MonoBehaviour {
                 {
                     //Debug.Log("Flick! Lights.");
                     hit.collider.transform.GetComponent<K_LightswitchScript>().ChangeLightswitchState(); // Call ChangeLightSwitchState by accessing, the script attached to Lightswitch
+                }
+                if (hit.collider.CompareTag("Closet"))
+                {
+                    hit.collider.transform.parent.GetComponent<K_ClosetScript>().ChangeHideState(); // Call ChangeHideState by accessing the script attached to Closet
+                }
+
+                if (hit.collider.CompareTag("Snack"))
+                {
+                    K_PlayerInventory.keys[hit.collider.GetComponent<K_SnackScript>().index] = true; // Set the value of the K_PlayerInventory to the value of the key
+                    Destroy(hit.collider.gameObject); // Destroy the snack
                 }
             }
         }

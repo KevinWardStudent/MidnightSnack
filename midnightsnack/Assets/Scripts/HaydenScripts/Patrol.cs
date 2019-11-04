@@ -48,7 +48,7 @@ public class Patrol : MonoBehaviour {
             agent.SetDestination(player.transform.position);
             StartCoroutine(nerfpause());
         }
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && FirstPersonPlayer.exposed)
         {
             audioSource.PlayOneShot(sound1, .7f);
         }
@@ -56,7 +56,7 @@ public class Patrol : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && FirstPersonPlayer.exposed)
         {
             attack.SetActive(true);
             agent.speed = 7;

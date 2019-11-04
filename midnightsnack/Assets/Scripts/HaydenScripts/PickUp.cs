@@ -17,7 +17,7 @@ public class PickUp : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.CompareTag("pickup"))
+        if (other.gameObject.CompareTag("pickup") || other.gameObject.CompareTag("ammo"))
         {
             pickuptext.text = "Hold [F] to pick up item";
         }
@@ -29,6 +29,13 @@ public class PickUp : MonoBehaviour
             other.GetComponent<Rigidbody>().isKinematic = true;
 
             other.gameObject.transform.position = gameObject.transform.position;
+        }
+        else if (Input.GetKey(KeyCode.F) && other.gameObject.CompareTag("ammo"))
+        {
+            NerfGun.ammo += 4;
+            pickuptext.text = "";
+            
+            other.gameObject.SetActive(false);
         }
         else if (Input.GetKeyUp(KeyCode.F) && other.gameObject.CompareTag("pickup"))
         {
@@ -46,7 +53,7 @@ public class PickUp : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && (other.gameObject.CompareTag("Snack") || other.gameObject.CompareTag("pickup")))
         {
             other.gameObject.SetActive(false);
-            FirstPersonPlayer.win = true;
+            GameControllerV2.win = true;
             snackText.text = "";
             //gotSnack = true;
         }
