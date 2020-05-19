@@ -32,7 +32,7 @@ public class NewFPController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         ToggleNerfGun();
         
