@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5434660727677989890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545392584783609597}
+  - component: {fileID: 919566583789272914}
+  - component: {fileID: 8128646942160250439}
+  m_Layer: 0
+  m_Name: pCone6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545392584783609597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434660727677989890}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07499695, y: -0.049650192, z: 0.0401268}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 3317825396872669198}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &919566583789272914
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434660727677989890}
+  m_Mesh: {fileID: 1657867682861714756, guid: a5198ab546e5abf49be09234defe85f5, type: 3}
+--- !u!23 &8128646942160250439
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5434660727677989890}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0369fcb92cd74834db15559860b2f4f9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7111999228666131773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3317825396872669198}
+  m_Layer: 0
+  m_Name: Bath Towel 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3317825396872669198
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7111999228666131773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 158.705, y: -31.366, z: -43.151043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9138311784195859605}
+  - {fileID: 545392584783609597}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8505166590966056867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3317825396872669198}
+    m_Modifications:
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.037002563
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.30900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0500412
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.012085757
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.011530881
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392681638992413012, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bath Towel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bfe91ca422849a4b80707e04051a6b0, type: 3}
+--- !u!4 &9138311784195859605 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8505166590966056867}
+  m_PrefabAsset: {fileID: 0}

@@ -30,6 +30,14 @@ TagManager:
   - exposed
   - ammo
   - dash
+  - sound
+  - Ground
+  - waypoint
+  - TVCouch
+  - Bed
+  - SitCouch
+  - Kitchen
+  - Spawnpoint
   layers:
   - Default
   - TransparentFX
@@ -40,9 +48,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
+  - Target
+  - Obstacle
+  - Ground
   - 
   - 
   - 

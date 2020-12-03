@@ -54,7 +54,7 @@ public class K_PlayerController : MonoBehaviour {
     float xAxisClampXbox; // Xbox version of above code
     float zAxisClamp; // Float value to determine the maximum distance the player "leans" aka rotate on the z axis
 
-
+    public bool lockCam;
 
     void Start()
     {

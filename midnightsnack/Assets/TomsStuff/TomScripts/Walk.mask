@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Walk
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Eli_new:Group31163
+    m_Weight: 1
+  - m_Path: ikHandle1
+    m_Weight: 1
+  - m_Path: ikHandle2
+    m_Weight: 1
+  - m_Path: Main_controller
+    m_Weight: 1
+  - m_Path: Main_controller/L_Foot_controller
+    m_Weight: 1
+  - m_Path: Main_controller/L_Foot_controller/nurbsCircle3
+    m_Weight: 1
+  - m_Path: Main_controller/L_Foot_controller/nurbsCircle6
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle9
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle10
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle10/nurbsCircle12
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle10/nurbsCircle12/nurbsCircle14
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle11
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle11/nurbsCircle13
+    m_Weight: 1
+  - m_Path: Main_controller/Pelvis_controller/nurbsCircle8/nurbsCircle11/nurbsCircle13/nurbsCircle15
+    m_Weight: 1
+  - m_Path: Main_controller/R_Foot_controller
+    m_Weight: 1
+  - m_Path: Main_controller/R_Foot_controller/nurbsCircle4
+    m_Weight: 1
+  - m_Path: Main_controller/R_Foot_controller/nurbsCircle5
+    m_Weight: 1
+  - m_Path: pelvis
+    m_Weight: 1
+  - m_Path: pelvis/L_hip
+    m_Weight: 1
+  - m_Path: pelvis/L_hip/L_knee
+    m_Weight: 1
+  - m_Path: pelvis/L_hip/L_knee/L_ankle
+    m_Weight: 1
+  - m_Path: pelvis/L_hip/L_knee/L_ankle/L_heel
+    m_Weight: 1
+  - m_Path: pelvis/L_hip/L_knee/L_ankle/L_heel/L_toe
+    m_Weight: 1
+  - m_Path: pelvis/Main
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_middle_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_middle_1st/L_middle_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_middle_1st/L_middle_2nd/L_middle_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_middle_1st/L_middle_2nd/L_middle_3rd/L_middle_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pinky_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pinky_1st/L_pinky_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pinky_1st/L_pinky_2nd/L_pinky_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pinky_1st/L_pinky_2nd/L_pinky_3rd/L_pinky_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pointer_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pointer_1st/L_pointer_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pointer_1st/L_pointer_2nd/L_pointer_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_pointer_1st/L_pointer_2nd/L_pointer_3rd/L_pointer_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_ring_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_ring_1st/L_ring_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_ring_1st/L_ring_2nd/L_ring_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_ring_1st/L_ring_2nd/L_ring_3rd/L_ring_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_thumb_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_thumb_1st/L_thumb_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/L_shoulder/L_elbow/L_wrist/L_thumb_1st/L_thumb_2nd/L_thumb_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/neck
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/neck/Head
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_middle_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_middle_1st/R_middle_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_middle_1st/R_middle_2nd/R_middle_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_middle_1st/R_middle_2nd/R_middle_3rd/R_middle_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pinky_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pinky_1st/R_pinky_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pinky_1st/R_pinky_2nd/R_pinky_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pinky_1st/R_pinky_2nd/R_pinky_3rd/R_pinky_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pointer_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pointer_1st/R_pointer_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pointer_1st/R_pointer_2nd/R_pointer_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_pointer_1st/R_pointer_2nd/R_pointer_3rd/R_pointer_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_ring_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_ring_1st/R_ring_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_ring_1st/R_ring_2nd/R_ring_3rd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_ring_1st/R_ring_2nd/R_ring_3rd/R_ring_4th
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_thumb_1st
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_thumb_1st/R_thumb_2nd
+    m_Weight: 1
+  - m_Path: pelvis/Main/chest/R_shoulder/R_elbow/R_wrist/R_thumb_1st/R_thumb_2nd/R_thumb_3rd
+    m_Weight: 1
+  - m_Path: pelvis/R_hip
+    m_Weight: 1
+  - m_Path: pelvis/R_hip/R_knee
+    m_Weight: 1
+  - m_Path: pelvis/R_hip/R_knee/R_ankle
+    m_Weight: 1
+  - m_Path: pelvis/R_hip/R_knee/R_ankle/R_heel
+    m_Weight: 1
+  - m_Path: pelvis/R_hip/R_knee/R_ankle/R_heel/R_toe
+    m_Weight: 1

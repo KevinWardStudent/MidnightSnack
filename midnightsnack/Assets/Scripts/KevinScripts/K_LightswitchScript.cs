@@ -13,36 +13,21 @@ public class K_LightswitchScript : MonoBehaviour {
 
     // Declare Variables
     public bool on = false; //Bool used in the Unity Editor to determine if the lights in the room are on
-    //private GameObject[] roomLamps; // Array used to store all game object of type "Lamp"
-    private Light[] roomLights; // Array used to store all lights attached to the lightswitch game object
-    
-    // Use this for initialization
-    void Start ()
-    {
-        roomLights = GetComponentsInChildren<Light>(); // Stores all lights attached to Children in inside of the array roomLights
-	}
+    [SerializeField]
+    public List<GameObject> roomLights = new List<GameObject>();
 	
 	// Update is called once per frame
 	void Update ()
     {
-        // Check if we need the roomLights on
-        if (on)
-        {
-            // We need to enable each light individually
-            for (int i = 0; i < roomLights.Length ; i++)
-            {
-                roomLights[i].enabled = true;
-            }
-        }
 
-        else
+        if (on == false)
         {
-            // We need to disable each light individually
-            for (int i = 0; i < roomLights.Length; i++)
+            for (int i = 0; i < roomLights.Count; i++)
             {
-                roomLights[i].enabled = false;
+               roomLights[i].GetComponent<K_Lamp1Script>().on = false;
             }
         }
+        
     }
     /*
      * We use this below mehtod to invert the bool "On" 
@@ -51,5 +36,9 @@ public class K_LightswitchScript : MonoBehaviour {
     {
         //Debug.Log("You Rang?");
         on = !on;
+        for (int i = 0; i < roomLights.Count; i++)
+        {
+            roomLights[i].GetComponent<K_Lamp1Script>().ChangeLightState();
+        }
     }
 }

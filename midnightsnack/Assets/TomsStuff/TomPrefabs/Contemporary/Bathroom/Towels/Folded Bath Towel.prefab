@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8152451442287766646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100380060938031793}
+  m_Layer: 0
+  m_Name: Folded Bath Towel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100380060938031793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8152451442287766646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.173094, y: 0.13425742, z: -8.100515}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7171255338441055479}
+  - {fileID: 7926355975614107453}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7411155971160534027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 100380060938031793}
+    m_Modifications:
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01909399
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0047425777
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0013504028
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.006908939
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.010666545
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.017354898
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392681638992413012, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bath Towel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bfe91ca422849a4b80707e04051a6b0, type: 3}
+--- !u!4 &7926355975614107453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7411155971160534027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7736286310275022785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 100380060938031793}
+    m_Modifications:
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.009093761
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.010742575
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0013504028
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.006908939
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.010666545
+      objectReference: {fileID: 0}
+    - target: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.007476664
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392681638992413012, guid: 8bfe91ca422849a4b80707e04051a6b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Bath Towel (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8bfe91ca422849a4b80707e04051a6b0, type: 3}
+--- !u!4 &7171255338441055479 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 637723158070158134, guid: 8bfe91ca422849a4b80707e04051a6b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7736286310275022785}
+  m_PrefabAsset: {fileID: 0}
