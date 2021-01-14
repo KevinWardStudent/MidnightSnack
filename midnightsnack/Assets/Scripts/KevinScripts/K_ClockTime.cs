@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class K_ClockTime : MonoBehaviour {
 
@@ -17,12 +18,12 @@ public class K_ClockTime : MonoBehaviour {
      * Works in Military time and can alternate between states with bool
      */
     public GameObject clockCanvas;
-    public Text clockTimeText;
+    public TextMeshProUGUI clockTimeText;
     public float hour;
     public float minute;
 
     public bool stop = false; // Controls when clock should be stopped, by default false
-    public int index = -1;  // This value is set in the Unity Editor and sets which door's index this instance of the clock
+    public int index = -1; // Value used in Unity Editor to determine which Key correspondes to this door--0 = unlocked
 
     // Update is called once per frame
     void Update ()

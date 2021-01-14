@@ -19,7 +19,7 @@ public class K_ClockTimerStopScript : MonoBehaviour {
         K_ClockTime clockScript = GetComponentInChildren<K_ClockTime>(); // Store K_ClockTime in script reference
 
         //K_PlayerInventory.snacks[];
-        if (other.CompareTag("Player") && playerInventory.snacks[clockScript.index] == true)
+        if (other.CompareTag("Player") && K_PlayerInventory.snacks[clockScript.index] == true)
         {
             clockScript.StopTime(); // Stop Time. Change Stop Time State on K_ClockTime
         }

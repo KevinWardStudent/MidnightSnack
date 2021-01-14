@@ -18,7 +18,7 @@ public class K_PlayerInventory : MonoBehaviour {
      */
 
     public static bool[] keys = new bool[5]; // This array will store all of our key values, originally the amount bools stored in the array is 5, but the Level Designer can change it according to the situation
-    public bool[] snacks = new bool[5]; // This array will store all of our snack values, orginally the amount bools stored in the array is 5, but the Level Designer can change it according to the situation
+    public static bool[] snacks = new bool[5]; // This array will store all of our snack values, orginally the amount bools stored in the array is 5, but the Level Designer can change it according to the situation
     // Changed above to non static array so that it can be used in an instance reference later in K_ClockTimerStopScript-- this does not work.
 
     void Start()

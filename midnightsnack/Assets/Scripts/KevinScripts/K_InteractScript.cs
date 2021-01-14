@@ -37,6 +37,7 @@ public class K_InteractScript : MonoBehaviour {
             RaycastHit hit; // Stores info of object ray hits
             if (Physics.Raycast(rayInteract, out hit, interactDistance))
             {
+                Debug.DrawLine(transform.position,hit.transform.position);
                 Debug.Log(hit.transform.name); // Prints name of collided object
                 if (hit.collider.CompareTag("Door1") && !animPlay)
                 {
@@ -163,8 +164,13 @@ public class K_InteractScript : MonoBehaviour {
 
                 if (hit.collider.CompareTag("Snack"))
                 {
-                    K_PlayerInventory.keys[hit.collider.GetComponent<K_SnackScript>().index] = true; // Set the value of the K_PlayerInventory to the value of the key
+                    K_PlayerInventory.keys[hit.collider.GetComponent<K_SnackScript>().index] = true; // Set the value of the K_PlayerInventory to the value of the snack
                     Destroy(hit.collider.gameObject); // Destroy the snack
+                }
+                if (hit.collider.CompareTag("Clock"))
+                {
+                    //If the collided object is a clock
+                    if (K_PlayerInventory.keys[hit.collider.GetComponent<K_SnackScript>().index] == true) { }
                 }
             }
         }
